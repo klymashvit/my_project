@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bella Ciao</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-   <header>
+   <header class="head">
        <h1>Зося Белла Чао</h1>
        <div>
            <a href="#menu">Меню</a>
@@ -16,8 +17,8 @@
            <a href="#cart">Кошик</a>
        </div>
    </header>
-    <div>
-        <img src="img/pizzalogo.jpg" height=300px weight=400px alt="Піца в коробці з логотипом збоку"> <!--carousel here-->
+    <div class="first-block">
+        <img id="pizzalogo" src="img/pizzalogo.jpg" alt="Піца в коробці з логотипом збоку"> <!--carousel here-->
         <p>На численні прохання любителів нашої піци працює доставка!
 
 Хто ж у Львові не куштував справжню італійську піцу на затишній Вірменській, а згодом і на Староєврейській... Неймовірний аромат, борошно в повірті та вправні руки піцайоли - творять гастрономічне чудо. </p>
@@ -27,27 +28,27 @@
         </form>
     </div>
     </div>
-    <div>
+    <div  class="servises">
         <h3>
             100% Безкоштовна доставка при замовленні на 300грн і більше
         </h3>
     </div>
-    <div>
+    <div class="servises">
         <h3>
             24/7 Служба підтримки
         </h3>
     </div>
-    <div>
+    <div class="servises">
         <h3>
             Замовляй 3 піци і отримуй 1 в подарунок
         </h3>
     </div>
-    <div>
+    <div class="second-block">
         <h1>
             Популярні замовлення
         </h1>
-        <div>
-            <img src="img/alpina.jpg" height=300px weight=400px alt="Піца Альпіна">
+        <div class="pizza">
+            <img id="alpina" src="img/alpina.jpg" alt="Піца Альпіна">
             <h2>
                 Альпіна
             </h2>
@@ -55,8 +56,8 @@
                 <button type="submit">В кошик</button>
             </form>
         </div>
-         <div>
-            <img src="img/hawaii.jpg" height=300px weight=400px alt="Піца Гавайська">
+         <div class="pizza">
+            <img id="hawaii" src="img/hawaii.jpg" alt="Піца Гавайська">
             <h2>
                 Гавайська
             </h2>
@@ -64,8 +65,8 @@
                 <button type="submit">В кошик</button>
             </form>
         </div>
-         <div>
-            <img src="img/karbonara.jpg" height=300px weight=400px alt="Піца Карбонара">
+         <div class="pizza">
+            <img id="karbonara" src="img/karbonara.jpg" alt="Піца Карбонара">
             <h2>
                 Карбонара
             </h2>
@@ -73,8 +74,8 @@
                 <button type="submit">В кошик</button>
             </form>
         </div>
-         <div>
-            <img src="img/margarite.jpg" height=300px weight=400px alt="Піца Маргарита">
+         <div class="pizza">
+            <img id="margarite" src="img/margarite.jpg" alt="Піца Маргарита">
             <h2>
                 Маргарита
             </h2>
@@ -83,7 +84,7 @@
             </form>
         </div>
     </div>
-    <div>
+    <div class="third-block">
         <p class="sale">Супер Знижка</p>
         <p class="sale-text">Економ 50% при замовленні </p>
         <p class="sale">Поспішай,щоб не пропустити</p>
@@ -93,9 +94,19 @@
             </form>
         </div>
     </div>
-    <footer>
+    <footer class="foot">
        <div>
-           
+           <a href="#about-us">Про нас</a>
+           <a href="#contact-us">З'єднайтесь з нами</a>
+           <a href="#sign-up">Зареєструватися</a>
+           <a href="#news">Новини</a>
+           <div>
+               <form>
+                   <input type="email" placeholder="Введіть Ваш e-mail">
+                   <button type="submit">Підписатися</button>
+               </form>
+           </div>
+           <h2>©Белла Чао 2019.Всі права захищені</h2>
        </div>
     </footer>
 </body>

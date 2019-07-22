@@ -1,0 +1,36 @@
+.pizza {
+    border-style: dotted;
+}
+.head {
+    border-style: solid;
+}
+.first-block {
+    border-style: solid;
+}
+.servises {
+    border-style: solid;
+}
+.second-block {
+    border-style: solid;
+}
+.third-block {
+    border-style: solid;
+}
+.foot {
+    border-style: solid;
+}
+#alpina {
+    height: 300px;
+}
+#pizzalogo {
+    height: 300px;
+}
+#hawaii {
+    height: 300px;
+}
+#karbonara {
+    height: 300px;
+}
+#margarite {
+    height: 300px;
+}
