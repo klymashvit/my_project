@@ -1,22 +1,22 @@
 .pizza {
     border-style: dotted;
 }
-.head {
+header {
     border-style: solid;
 }
-.first-block {
+.main-block {
     border-style: solid;
 }
 .servises {
     border-style: solid;
 }
-.second-block {
+.popular-products {
     border-style: solid;
 }
-.third-block {
+.sales {
     border-style: solid;
 }
-.foot {
+footer {
     border-style: solid;
 }
 #alpina {
