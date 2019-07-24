@@ -1,25 +1,4 @@
-.pizza {
-    border-style: dotted;
-}
-header {
-    border-style: solid;
-}
-.main-block {
-    border-style: solid;
-}
-.servises {
-    border-style: solid;
-}
-.popular-products {
-    border-style: solid;
-}
-.sales {
-    border-style: solid;
-}
-footer {
-    border-style: solid;
-}
-#alpina {
+/*#alpina {
     height: 300px;
 }
 #pizzalogo {
@@ -33,4 +12,102 @@ footer {
 }
 #margarite {
     height: 300px;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Lora|Rubik&display=swap');
+body {
+    max-width: 980px;
+    margin:auto;
+}
+header .logo {
+    font-family: 'Lora', serif;
+    font-size:3rem;
+    text-align: center;
+    color:white;
+    margin-left: 30px;
+    }
+header .menu {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    padding: 0;
+}
+header .menu a {
+    color:white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+header nav {
+    background-color:black;
+}
+@media (min-width: 480px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+    header .menu {
+        flex:1;
+    }
+    .servises-block {
+        display:flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.main-block {
+    background-color:black;
+}
+.main-block #pizzalogo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.main-block-text {
+    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.main-block .paragraph {
+       font-family: 'Lora', serif;
+       color: white;
+       margin-left: 30px;
+}
+#main-block-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:30px;
+}
+.button {
+  background-color: rgb(255, 141, 1);
+  border: none;
+  color: white;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.servises-block {
+    background-color: rgb(66, 66, 66);
+}
+.servises {
+    display: flex;
+    justify-content: center;
+    color:  rgb(255, 141, 1);
+    border: 1px solid black;
+    border-width:10px;
+    padding: 10px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+body {
+    background-color: rgb(66, 66, 66);
 }
